@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+
+
+  <header class="header">
+    <div class="constrain">
+      <h1>LOGO</h1>
+
+      <nav class="menu">
+          <ul class="active">
+              <li class="current-item"><a href="#">Home</a></li>
+              <li><a href="#">Hire Me</a></li>
+              <li><a href="#">About Me</a></li>
+              <li><a href="#">Get in Touch</a></li>
+          </ul>
+
+          <a class="toggle-nav" href="#">&#9776;</a>
+
+      </nav>
+    </div>
+  </header>
+  <body>
+    <div id="root"></div>
+    <div class="container">
+  <section class="main">
+    <div class="constrain">
+      <article class="primary">
+        <h1>Article Title</h1>
+        <img src="http://lorempixel.com/400/200/" alt="" class="hero" style="width:100%"/>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda excepturi, incidunt quae optio, accusamus, perferendis ducimus a fugiat molestias laboriosam provident odio architecto officia quos nesciunt. Eveniet nesciunt doloremque facilis.</p>
+      </article>
+      <div class="smallPic" style="width:100%">
+
+        <div  class="imdiv">
+          <img src="http://lorempixel.com/400/202/" alt="" class="pic"/>
+          <p class="texts">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis </span>
+        </div>
+
+        <div class="imdiv">
+          <img src="http://lorempixel.com/400/203/" alt="" class="pic"/>
+          <p class="texts">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis </span>
+        </div>
+
+        <div class="imdiv">
+          <img src="http://lorempixel.com/400/204/" alt="" class="pic"/>
+          <p class="texts">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis </span>
+        </div>
+
+      </div>
+      <h2>Content</h2>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+    </div>
+  </section>
+    <footer class="footer">
+    <div class="constrain">
+      <p>Copyright 2017</p>
+      <p>Legal Stuff</p>
+      <p>Careers</p>
+    </div>
+  </footer>
+
+</div>
+  </body>
+</html>
+
+<script type="jquery-3.1.1.min.js">
+jQuery(document).ready(function() {
+    jQuery('.toggle-nav').click(function(e) {
+        jQuery(this).toggleClass('active');
+        jQuery('.menu ul').toggleClass('active');
+
+        e.preventDefault();
+    });
+});
+</script>
